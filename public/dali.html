@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<title>Salvador Dalí</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
+</style>
+<body class="w3-theme-l5">
+
+
+
+
+
+
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">    
+  
+  <div class="w3-row">
+   
+    <div class="w3-col m3">
+      
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">Dalí</h4>
+         <p class="w3-center"><img src="salvadordali.jpg" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
+         <hr>
+        </div>
+      </div>
+      <br>
+      
+      
+      <div class="w3-card w3-round">
+        <div class="w3-white">
+         
+         
+          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-users fa-fw w3-margin-right"></i> Mis obras</button>
+          <div id="Demo3" class="w3-hide w3-container">
+         <div class="w3-row-padding">
+         <br>
+           <div class="w3-half">
+             <img src="dali1.jfif" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="dali2.jfif" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="dali3.jfif" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="dali4.jfif" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="dali5.jfif" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="dali6.jfif" style="width:100%" class="w3-margin-bottom">
+           </div>
+         </div>
+          </div>
+        </div>      
+      </div>
+      <br>
+      
+     
+      
+     
+    
+    
+    </div>
+    
+    
+    <div class="w3-col m7">
+    
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            
+          </div>
+        </div>
+      </div>
+      
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        
+        
+        <h4>Salvador Dalí</h4><br>
+        <hr class="w3-clear">
+        <p>(Figueres, Gerona, 1904 - 1989) Pintor español. Si bien parte del inmenso prestigio y popularidad de que gozó ya en vida se debió a sus estrafalarias e impostadas excentricidades, Salvador Dalí acertó a insuflar nueva vida al surrealismo europeo hasta convertirse en su más conocido representante; sus confusas ideas estéticas (el llamado método paranoico-crítico) fueron mucho menos decisivas que sus impactantes composiciones, a las que trasladó con magistral precisión técnica un personalísimo universo onírico y simbólico, tan nítido y luminoso como profundamente inquietante y perturbador.</p>
+          
+        </div>
+      
+      
+      
+    
+    </div>
+    
+    
+    
+  
+  </div>
+  
+
+</div>
+<br>
+
+
+<footer class="w3-container w3-theme-d3 w3-padding-16">
+  <h5>Página creada por Derek Yadir Franco Martínez</h5>
+</footer>
+
+<footer class="w3-container w3-theme-d5">
+  <p>Powered by <a href="" target="_blank">CFatwizC</a></p>
+</footer>
+ 
+<script>
+
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-theme-d1";
+  } else { 
+    x.className = x.className.replace("w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-theme-d1", "");
+  }
+}
+
+
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
